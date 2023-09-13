@@ -7,11 +7,11 @@ Se construye la imagen a partir del dockerfile con el siguiente comando del dock
 ```bash
   sudo docker-compose build
 ```
-ejecutamos la imagen para crear el contenedor con
+ejecutamos la imagen para crear el contenedor con:
 ```bash
-  sudo docker-compose up -d
+  sudo docker-compose up -d #la flag permite seguir usando la terminal
 ```
-Una vex hecho esto podemos acceder tipeando en el navegador:
+Una vez hecho esto podemos acceder tipeando en el navegador:
 
 ```bash
   http://localhost:5020

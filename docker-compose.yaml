@@ -1,14 +1,10 @@
-#Docker compose, orquestrador de configuraciones
 version: '3'
 
 services:
-  flask_app: #nombre de la img
+  flask_app:
     build:
       context: .
       dockerfile: dockerfile
     ports:
       - "5020:5020"
     restart: always 
-
-#nos ahorramos el build: sudo docker build --tag nombre .
-#y por su-puesto el run: sudo docker run -d -p 5010:5010 nombre
